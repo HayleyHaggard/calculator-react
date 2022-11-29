@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 
 const App = () => {
-  const [result, setResult] = useState("Hi");
+  const [result, setResult] = useState("");
 
 
   // use different handlers for number and operators.Create another function only for operators where u will access the operator using its name attribute and use switch statements to carry out operations individually
